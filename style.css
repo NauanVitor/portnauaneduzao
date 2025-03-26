@@ -43,13 +43,15 @@ a{
     color: #0026ff;
 }
 
-.lista {
-    /* right: 8%; */
-    width: 14%;
-    padding: 20px;
-    text-align: start;
+.lista{
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
 }
-}d
 
 .caixa:checked ~ .lista{
     display: block;
