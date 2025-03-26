@@ -16,16 +16,19 @@ header {
 }
 
 
-header{
-    display:flex;
+header {
+    display: flex
+;
     align-items: center;
     padding: 12px;
-    justify-content: space-around;
-    background-color: #0066ff	;
+    justify-content: flex-start;
+    background-color: #0066ff;
     color: black;
     position: relative;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
 }
-
 ul li{
     list-style: none;
 }
